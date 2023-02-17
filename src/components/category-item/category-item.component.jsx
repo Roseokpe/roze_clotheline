@@ -1,7 +1,6 @@
 import './category-item.styles.scss'
 
-
-const categoryItem = ({category}) => {
+const CategoryItem = ({category}) => {
     // distructure
     const {imageUrl, title} = category;
     return(
@@ -18,4 +17,4 @@ const categoryItem = ({category}) => {
 
 }
 
-export default categoryItem
+export default CategoryItem
